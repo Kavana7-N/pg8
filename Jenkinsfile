@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Kavana7-N/pg8.git'
+                git branch: 'main', url: 'https://github.com/Kavana7_N/pg8.git'
             }
         }
 
